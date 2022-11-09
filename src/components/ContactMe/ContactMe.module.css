@@ -1,0 +1,97 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: var(--align-x);
+  margin-top: 5rem;
+  text-align: center;
+  color: var(--color-fourth);
+}
+.contactContainer hr {
+  border: 1px solid var(--color-complementary);
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  width: 80%;
+  margin: 30px 0;
+}
+
+.titleImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 200px;
+}
+
+.title {
+  color: var(--color-secondary);
+}
+
+.infoContainer {
+  display: flex;
+  margin: 2rem 0 2rem 0;
+}
+
+.innerInfoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.innerInfoContainer span {
+  font-size: 1.3rem;
+}
+
+.icon {
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.addressContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addressContainer h2 {
+  color: var(--color-secondary);
+}
+
+.addressContainer span {
+  margin: 0.3rem 0;
+  font-size: 1.3rem;
+}
+
+.logoWrap {
+  width: 200px;
+  margin-top: 75px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 850px) {
+  .infoContainer {
+    flex-direction: column;
+  }
+  .innerInfoContainer {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .titleImage {
+    margin-top: 50px;
+  }
+  .logoWrap {
+    width: 180px;
+    margin-top: 50px;
+  }
+}

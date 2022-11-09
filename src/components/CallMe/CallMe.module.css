@@ -1,0 +1,35 @@
+.phoneBtn {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+  cursor: pointer;
+  transition: all 0.3s linear;
+  position: fixed;
+  right: 15px;
+  bottom: 30px;
+  z-index: 5;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phoneBtn:hover {
+  background-color: var(--color-fifth);
+}
+
+.phoneIcon {
+  width: 70%;
+}
+
+@media (max-width: 500px) {
+  .phoneBtn {
+    width: 45px;
+    height: 45px;
+    bottom: 10px;
+  }
+}

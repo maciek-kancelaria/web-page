@@ -1,0 +1,30 @@
+.rodo {
+  color: var(--color-primary);
+  line-height: 22px;
+}
+
+.rodoOrderList {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.rodoList {
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+
+.rodoSubList {
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 500px) {
+  .rodoList {
+    margin-left: 0px;
+  }
+
+  ol {
+    margin-left: 0;
+    padding-left: 20px;
+  }
+}
