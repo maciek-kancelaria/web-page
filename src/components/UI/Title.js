@@ -7,7 +7,7 @@ const Title = ({ text, className }) => {
     titleExtraStyle = { fontSize: '24px' };
   }
   if (className === 'mb0') {
-    titleExtraStyle = { marginBottom: '0px' };
+    titleExtraStyle = { marginBottom: '8px', fontSize: '24px' };
   }
   if (className === 'mt-small') {
     titleExtraStyle = { marginTop: '20px' };

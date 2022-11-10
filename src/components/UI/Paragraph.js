@@ -1,11 +1,10 @@
 import PropTypes from 'prop-types';
 import classes from './Paragraph.module.css';
 
-const Paragraph = ({ children, quote }) => {
+const Paragraph = ({ children }) => {
   return (
     <>
       <p className={classes.paragraph}>{children}</p>
-      <p className={classes.quote}>{quote}</p>
     </>
   );
 };
