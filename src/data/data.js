@@ -16,7 +16,7 @@ const specializationContent = [
   },
   {
     content:
-      'Od ponad dwóch lat reprezentuję, z powodzeniem, Klientów w tzw. sprawach frankowych, czyli dotyczących umów o kredyt denominowanych lub indeksowanych do franka szwajcarskiego, żądając w ich imieniu ustalenia nieważności umowy i zwrotu zapłaconych do baku środków lub zapłaty środków przekazanych do banku pomimo nieważności umowy, jak również w sprawach wytoczonych przez Banki. ',
+      'Od kilku lat reprezentuję, z powodzeniem, Klientów w tzw. sprawach frankowych, czyli dotyczących umów o kredyt denominowanych lub indeksowanych do franka szwajcarskiego, żądając w ich imieniu ustalenia nieważności umowy i zwrotu zapłaconych do baku środków lub zapłaty środków przekazanych do banku pomimo nieważności umowy, jak również w sprawach wytoczonych przez Banki. ',
     title: 'Sprawy frankowe',
     icon: <CoinsIcon className="specIcon" />,
   },
